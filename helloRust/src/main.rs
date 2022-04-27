@@ -5,7 +5,6 @@ mod temprechner;
 mod zahlenraten;
 
 use std::io;
-use std::fs::read_to_string;
 
 fn main() {
     println!("Willkommen zu meinen ersten Experimenten mit der Rust Sprache.");
