@@ -1,4 +1,4 @@
-# rust_experiments
+# Rust experiments 
 A collection of rust packages which taught me rust by messing around.
 
 The collection currently contains three finished and one broken project:
@@ -18,16 +18,22 @@ To collect these experiments for me and others to look at, I made this repositor
 
 ## History
 
+### hello_rust
+
 After deciding to learn rust my search quickly lead me to the [rust handbook](https://doc.rust-lang.org/book/).
 At the end of chapter 3 it had some suggestions for easy programming challenges.
 I implemented those together with the number guessing game of chapter 2.
 To make it more compact I wrote the main function to be a kind of menu, from a sub program can be started.
+
+### minesweeper
 
 On a trip in the Deutsche Bahn (ICE to be specific) I got bored and wanted to program a simple game.
 Because I had done tic tac toe before, I decided to make minesweeper.
 Since I am not an artist I decided to display everything in the console.
 
 **Right now the project does not compile, because I wanted to add some feature and got distracted.**
+
+### parse_roman_numerals and simple_dfa
 
 I got inspired by [a reddit post](https://www.reddit.com/r/dailyprogrammer/comments/onfehl/20210719_challenge_399_easy_letter_value_sum/), combined with my love of roman numerals to write a program to return the decimal value of a given string of roman numerals.
 After I got it to work, I noticed a lot of nonsense inputs that were possible, like `IMXDV`.
