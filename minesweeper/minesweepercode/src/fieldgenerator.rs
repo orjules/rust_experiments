@@ -1,15 +1,13 @@
 use rand::Rng;
 
-pub fn change_bomb_on_field(coord: (usize, usize), field: Vec<Vec<u16>>) -> Vec<Vec<u16>>{
-    let mut new_field = field;
+pub fn change_bomb_on_field(coord: (usize, usize), field: & mut Vec<Vec<u16>>) { 
     if field[coord.0][coord.1] == 9 { // Wenn Bombe (9) -> zu "gefundene" Bombe (10) machen
-        new_field[coord.0].insert(coord.1, 10);
+        field[coord.0].insert(coord.1, 10);
         return new_field;
     }else if field[coord.0][coord.1] == 10 { // Wenn "gefundene" Bombe (10) -> zu Bombe machen (9)
-        new_field[coord.0].insert(coord.1, 9);
+        field[coord.0].insert(coord.1, 9);
         return new_field;
     }
-    return new_field;
 }
 
 pub fn is_done(field: Vec<Vec<u16>>) -> bool{
