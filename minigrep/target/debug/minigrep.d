@@ -1,1 +1,1 @@
-/Users/juliusgilka-botzow/Documents/ProgrammierSachen/rust_experiments/minigrep/target/debug/minigrep: /Users/juliusgilka-botzow/Documents/ProgrammierSachen/rust_experiments/minigrep/src/main.rs
+/Users/juliusgilka-botzow/Documents/ProgrammierSachen/rust_experiments/minigrep/target/debug/minigrep: /Users/juliusgilka-botzow/Documents/ProgrammierSachen/rust_experiments/minigrep/src/lib.rs /Users/juliusgilka-botzow/Documents/ProgrammierSachen/rust_experiments/minigrep/src/main.rs
